@@ -117,3 +117,13 @@
     width: auto;
   }
 }
+.greeting-gif {
+  width: 920px;
+  height: 438px;
+}
+.greeting-gif {
+  position: relative;
+  top: 30px;   /* Moves the GIF 20px downwards from its original position */
+  left: 0px;  /* Moves the GIF 30px to the right from its original position */
+}
+

@@ -2,14 +2,12 @@
 
 .contact-div-main {
   display: flex;
+  justify-content: space-between; /* This will push the children to the edges of the container. */
+  align-items: flex-start; /* This will vertically center the children. */
 }
 
 .dark-mode a {
   color: $textColorDark;
-}
-
-.contact-div-main > * {
-  flex: 1;
 }
 
 .contact-title {
@@ -49,7 +47,8 @@
   max-width: 100%;
   height: auto;
   margin-left: 1.5rem;
-  margin-top: -4rem;
+  transform: translateX(-100px);
+  //margin-top: -4rem;
 }
 
 /* Media Query */
@@ -57,11 +56,6 @@
   .contact-title {
     font-size: 56px;
     font-weight: 400;
-    text-align: center;
-  }
-
-  .contact-title {
-    font-size: 40px;
     text-align: center;
   }
 

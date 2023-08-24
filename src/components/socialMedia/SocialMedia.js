@@ -31,7 +31,17 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-
+       {socialMediaLinks.google ? (
+        <a
+         href={socialMediaLinks.google}
+         className="icon-button google"
+         target="_blank"
+         rel="noopener noreferrer"
+        >
+          <i className="fab fa-google"></i>
+          <span></span>
+       </a>
+      ) : null}
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
@@ -92,17 +102,6 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.medium ? (
-        <a
-          href={socialMediaLinks.medium}
-          className="icon-button medium"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-medium"></i>
-          <span></span>
-        </a>
-      ) : null}
 
       {socialMediaLinks.stackoverflow ? (
         <a
@@ -115,7 +114,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-
+       {socialMediaLinks.googleScholar ? (
+        <a
+          href={socialMediaLinks.googleScholar}
+          className="icon-button google-scholar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {/* You may need a custom icon or image here because Font Awesome doesn't have a specific icon for Google Scholar */}
+          <i className="custom-icon-google-scholar"></i>
+          <span></span>
+        </a>
+      ) : null}
       {socialMediaLinks.kaggle ? (
         <a
           href={socialMediaLinks.kaggle}

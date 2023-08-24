@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Hicham El Baz",
+  title: "Welcome to my world. I'm Hicham",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "🛠️ Diverse Engineering Expertise | 📊 Data Analytics Pro 3.5+ Years Shaping AGV Systems & Leading Operations Across Industries 🌍🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/18xIL2MK4fnXh46fO6iHmU0SahdtqpPK5/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://www.linkedin.com/in/hicham-el-baz/",
+  google: "https://scholar.google.com/citations?user=mBYWX-YAAAAJ&hl=en",
+  gmail: "helbaz1@binghamton.edu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,16 +44,31 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "About Me",
+  subTitle: "SYSTEMS SCIENCE AND INDUSTRIAL ENGINEERING",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Designed new CFP system, 40% smaller footprint, 60% less conveyor belt complexity, $4.5M savings"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Statistical analysis and data mining of pharmacy operations"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Simulation modeling with FlexSim and Demo3D"),
+    emoji(
+      "⚡ Python, SAS, SQL for advanced analytics"),
+    emoji(
+      "⚡ Multivariate data analysis - logistic regression, PCA, clustering, sensitivity analysis"
+    ),
+    emoji(
+      "⚡ Project management, Lean Six Sigma Green Belt certified"),
+    emoji(
+        "⚡ Developed AGV sorting system optimization"),
+    emoji(
+          "⚡ Data visualization with Tableau and data cleaning with SQL"),
+    emoji(
+            "⚡ Predictive modeling - logistic regression, exploratory data analysis"),
+    emoji(
+              "⚡ Fluent in Arabic, English, French, Turkish"),
+  
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,10 +84,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -85,36 +92,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    //{
+    //  skillName: "aws",
+     // fontAwesomeClassname: "fab fa-aws"
+    //},
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +113,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Binghamton University",
+      logo: require("./assets/images/05.png"),
+      subHeader: "Ph.D. in Systems Science and Industrial Engineering",
+      duration: "August 2023 - Expected May 2027",
+    },
+    {
+      schoolName: "Binghamton University",
+      logo: require("./assets/images/05.png"),
+      subHeader: "Master of Science in Systems Science and Industrial Engineering",
+      duration: "August 2021 - August 2023",
+      desc: "Participated in 8 research projects and published 3 papers",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Thesis: Enhanced Package Assignment Optimization in AGV Sorting Systems: Heuristic-based Stochastic Algorithms for Central Fill Pharmacies",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Mugla Sitki Kocman University",
+      logo: require("./assets/images/06.png"),
+      subHeader: "Bachelor of Science in Energy Systems Engineering",
+      duration: "September 2016 - May 2020",
+      desc: "Ranked top 10% in the program. Took courses about Entrepreneurship in The Energy Sector, Economical Analysis of Energy Systems, Engineering Economy",
+      descBullets: ["Capstone: Performance Analysis and Optimization of Organic Rankine Cycle (ORC)"]
     }
   ]
 };
@@ -150,19 +142,19 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Python", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "SQL",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Tableau",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +166,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Graduate Research Associate",
+      company: "iA",
+      companylogo: require("./assets/images/iA.png"),
+      date: "August 2021 – Present",
+      desc: "Advanced AGV sorting systems in central fill pharmacies (CFP) through meticulous data analysis, simulation modeling, and system design optimization",
+      //descBullets: [
+      //  "Statistical Analysis and Data Mining",
+      //  "System Design in CFPs",
+      //  "AGV Sorting System in CFPs"
+      //]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Operations Assistant Manager",
+      company: "El Baz Invest",
+      companylogo: require("./assets/images/BC.jpeg"),
+      date: "July 2020 – July 2021",
+      desc: "Spearheaded operations by streamlining daily tasks with optimized systems, managing significant banking transactions, and contributing to sustainable agricultural projects, including a vast olive tree farm"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Energy Systems Engineer Trainee",
+      company: "Disolar Energy",
+      companylogo: require("./assets/images/DD.png"),
+      date: "June 2019 – July 2019",
+      desc: "Managed and maintained solar power plants, ensuring optimal performance, while collaborating on technical solutions and cost estimations for project enhancement"
+    },
+    {
+      role: "Mechanical Engineer Trainee",
+      company: "Bosch",
+      companylogo: require("./assets/images/BB.png"),
+      date: "January 2019 – May 2019",
+      desc: "Pioneered the design of an ultrasonic steam device, collaborated with the engineering team on quality control processes, and evaluated boiler performance through rigorous testing"
     }
   ]
 };
@@ -205,39 +205,51 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Collaborative Analytics & Optimization Projects with Research Lab Teams & Student Cohorts",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Designer.png"),
+      projectName: "World Cup Sponsoring Decision Analytics",
+      projectDesc: "Developed a World Cup prediction model using logistic regression with Python",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "More Details",
+          url: "https://drive.google.com/file/d/18xIL2MK4fnXh46fO6iHmU0SahdtqpPK5/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/09.png"),
+      projectName: "Data Analysis of Netflix",
+      projectDesc: "Analyzed Netflix data with SQL and presented insights via Tableau",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "More Details",
+          url: "https://drive.google.com/file/d/18xIL2MK4fnXh46fO6iHmU0SahdtqpPK5/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/08.png"),
+      projectName: "Cycle Time Improvement in CFP Based on Simulation",
+      projectDesc: "Optimized a CFP conveyor system design using simulation",
+      footerLink: [
+        {
+          name: "More Details",
+          url: "https://drive.google.com/file/d/18xIL2MK4fnXh46fO6iHmU0SahdtqpPK5/view?usp=sharing"
         }
       ]
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -246,57 +258,45 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Certifications 🏆 "),
+  //subtitle:
+  //  "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "The Complete SQL Bootcamp",
+      //subtitle:
+        //"First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/10.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.udemy.com/certificate/UC-b3eb629b-8831-4a95-a09d-cf2267dc141d/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Lean Six Sigma Green Belt",
+      //subtitle:
+       // "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/GB.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.credly.com/badges/8efd154b-9611-4cec-9972-eed46c45144b/public_url"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Agile Project Management",
+      //subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/12.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/M6Q67Q85KTCQ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course"},
       ]
     }
   ],
@@ -306,23 +306,29 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  title: "Publications",
+  //subtitle:
+   // "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  displayMediumBlogs: "True", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/2694",
+      title: "IISE Annual Conference 2023",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Simulation-based Modeling and Analysis for the AGV Sorting System of CFPs"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3419",
+      title: "IISE Annual Conference 2023",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+       "Cycle Time Improvement in CFP Based on Simulation"
+    },
+    {
+      url: "https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/2708",
+      title: "IISE Annual Conference 2023",
+      description:
+        "A Simulation-Based Study for CFP System Conveyor Layout Improvement"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -343,7 +349,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +362,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  //subtitle:
+   // "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+1 (607) 727 - 1022",
+  email_address: "helbaz1@binghamton.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
