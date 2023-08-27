@@ -100,7 +100,7 @@ https://fontawesome.com/icons?d=gallery */
      // fontAwesomeClassname: "fab fa-aws"
     //},
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     }
   ],
