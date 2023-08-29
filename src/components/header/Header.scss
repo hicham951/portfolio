@@ -49,7 +49,15 @@
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
 }
+/* Default (Dark Mode) */
+.header .logo .logo-name {
+  color: black;
+}
 
+/* White Mode */
+.light-menu .logo .logo-name {
+  color: rgb(255, 187, 0);
+}
 .header .logo {
   display: block;
   flex: none;
@@ -58,15 +66,6 @@
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
-}
-/* Default (Dark Mode) */
-.header .logo .logo-name {
-  color: white;
-}
-
-/* White Mode */
-.light-menu .logo .logo-name {
-  color: rgb(255, 187, 0);
 }
 .header .logo-name {
   font-family: "Agustina Regular";
