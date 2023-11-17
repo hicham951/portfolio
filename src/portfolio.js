@@ -26,7 +26,7 @@ const greeting = {
     "🛠️ Diverse Engineering Expertise | 📊 Data Analytics Pro 3.5+ Years Shaping AGV Systems & Leading Operations Across Industries 🌍🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1WPnQhBlCQ77Xv8OfCI2qfVcgF_HmCL0d/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1WPnQhBlCQ77Xv8OfCI2qfVcgF_HmCL0d/view?usp=sharing", // Sempty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
