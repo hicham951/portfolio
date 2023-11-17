@@ -222,7 +222,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "More Details",
-          url: "https://drive.google.com/file/d/18xIL2MK4fnXh46fO6iHmU0SahdtqpPK5/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1WPnQhBlCQ77Xv8OfCI2qfVcgF_HmCL0d/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
@@ -234,7 +234,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "More Details",
-          url: "https://drive.google.com/file/d/18xIL2MK4fnXh46fO6iHmU0SahdtqpPK5/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1WPnQhBlCQ77Xv8OfCI2qfVcgF_HmCL0d/view?usp=sharing"
         }
       ]
     },
@@ -245,7 +245,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "More Details",
-          url: "https://drive.google.com/file/d/18xIL2MK4fnXh46fO6iHmU0SahdtqpPK5/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1WPnQhBlCQ77Xv8OfCI2qfVcgF_HmCL0d/view?usp=sharing"
         }
       ]
     }
@@ -318,13 +318,13 @@ const blogSection = {
         "Simulation-based Modeling and Analysis for the AGV Sorting System of CFPs"
     },
     {
-      url: "https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3419",
+      url: "https://www.proquest.com/openview/6ee96ab117478815f3d28c674825aaad/1?cbl=51908&pq-origsite=gscholar&parentSessionId=wJWS7euaNPihS7EBQTLmTmXaG6OiaeSZ53RXTxDY9h8%3D",
       title: "IISE Annual Conference 2023",
       description:
        "Cycle Time Improvement in CFP Based on Simulation"
     },
     {
-      url: "https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/2708",
+      url: "https://www.proquest.com/openview/213aae6e3dede7b0f0adbcdfdca39dbe/1?pq-origsite=gscholar&cbl=51908",
       title: "IISE Annual Conference 2023",
       description:
         "A Simulation-Based Study for CFP System Conveyor Layout Improvement"
